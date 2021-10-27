@@ -1,0 +1,109 @@
+h1 {
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+}
+.placeholder {
+  border: rgb(95, 155, 110);
+}
+.submit {
+  color: #048998;
+  text-align: center;
+}
+.submit :hover {
+  color: lightgoldenrodyellow;
+  cursor: grab;
+  border: #f6f2fe;
+  background-color: rgb(175, 240, 231);
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.city {
+  color: #048998;
+  text-align: left;
+}
+.temperature {
+  color: #048998;
+  text-align: left;
+}
+.cloudy {
+  position: absolute;
+  text-align: right;
+  display: inline-table;
+  left: 200px;
+  font-size: 80px;
+  text-align: center;
+  top: 100px;
+}
+.container {
+  color: #048998;
+  text-decoration-line: none;
+}
+body {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.hour {
+  color: #048998;
+  display: block;
+  text-align: center;
+  position: 20px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.hour:hover {
+  cursor: grab;
+  color: rgb(214, 155, 206);
+  border: #f6f2fe;
+  background-color: rgb(212, 235, 248);
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.day {
+  color: #048998;
+  display: block;
+  text-align: center;
+  position: 20px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.day:hover {
+  cursor: grab;
+  color: rgb(214, 155, 206);
+  border: #f6f2fe;
+  background-color: rgb(212, 235, 248);
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.climate {
+  color: #048998;
+  display: block;
+  text-align: center;
+  position: 20px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.climate:hover {
+  cursor: grab;
+  color: rgb(214, 155, 206);
+  border: #f6f2fe;
+  background-color: rgb(212, 235, 248);
+  box-shadow: 2px 3px 6px rgb(139, 160, 182);
+}
+.today {
+  text-align: center;
+  display: block;
+}
+.card {
+  text-align: center;
+  background: transparent;
+}
