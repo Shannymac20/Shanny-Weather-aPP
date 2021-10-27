@@ -107,3 +107,7 @@ body {
   text-align: center;
   background: transparent;
 }
+h6 {
+  text-align: center;
+  display: block;
+}
